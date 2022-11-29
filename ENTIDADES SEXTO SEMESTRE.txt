@@ -1,0 +1,14 @@
+TEMA GASTOS DIARIOS
+
+ENTIDAD CLIENTE 
+ID, Nombre, Apellido, Identificación 
+
+
+
+ENTIDAD CONCEPTO 
+ID, Producto, Precio, Descripción
+
+
+
+ENTIDAD GASTO   (TIPO TRANSACCIONAL) 
+ID, IDcliente, Caracteristicas, Fecha, Hora, Valor
