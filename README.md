@@ -1,4 +1,4 @@
-###### Aplicaciones--WebII--A 🚀👨‍💻💻 ######
+## Aplicaciones--WebII--A 🚀👨‍💻💻 
 
 Nombre: EDWARD ANGELO ESPINOZA SOLEDISPA
 Curso: Sexto "A"
