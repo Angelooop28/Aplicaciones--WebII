@@ -8,14 +8,14 @@ services:
       - mongo
     environment:
       - PORT=4000
-      - MONGODB_CNN=mongodb+srv://docker:Edward123456@cluster0.qvfuds8.mongodb.net/?retryWrites=true&w=majority
+      - MONGODB_CNN=mongodb://mongo:27017/cliente
   concepto:
     build: ./microservices/concepto-service
     depends_on:  
       - mongo
     environment:
       - PORT=4000
-      - MONGODB_CNN=mongodb:mongodb+srv://Edward:1234@cluster0.nlizucf.mongodb.net/?retryWrites=true&w=majority
+      - MONGODB_CNN=mongodb://mongo:27017/concepto
 
   nginx:
     image: nginx:latest
